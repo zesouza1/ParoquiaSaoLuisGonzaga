@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+
+
+.logo{
+    width: 25%;
+    height: auto;
+}
+
+#cabecalho p {
+    margin:0;
+    padding-left: 25%;
+    justify-content: center;
+}
+
+#spaconav li {
+    padding-left: 50px;
+}
+
+#banner img{
+    width:100%;
+    height:auto;
+}
+#cabecalho2 p {
+    margin:0;
+    padding-left: 0;
+    justify-content: center;
+}
