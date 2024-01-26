@@ -1,9 +1,22 @@
 @charset "UTF-8";
 
+body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:aliceblue;
+}
+nav{
+    font-size: 1.4rem;
+    margin:20px;
+}
+nav li{
+    color:black;
+}
 
 
 .logo{
-    width: 25%;
+    width: 50%;
     height: auto;
 }
 
@@ -25,4 +38,8 @@
     margin:0;
     padding-left: 0;
     justify-content: center;
+}
+
+.tirandoEspacoDoHTML{
+    margin-right: 0;
 }
