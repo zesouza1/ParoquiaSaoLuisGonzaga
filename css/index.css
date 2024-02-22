@@ -47,3 +47,9 @@ nav li{
 footer {
     padding-top:20px;
 }
+
+footer img{
+    height:90px;
+    width:90px;
+    padding:10px;
+}
