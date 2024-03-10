@@ -15,7 +15,7 @@ header .logo{
     margin: auto;
 }
 @media (max-width: 576px) {
-    header p{
+    header p, nav{
       font-size: 1rem;
     }
 }
