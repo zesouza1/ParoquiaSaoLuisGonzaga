@@ -14,11 +14,6 @@ header .logo{
 #cabecalho p{
     margin: auto;
 }
-@media (max-width: 576px) {
-    header p, nav{
-      font-size: 1rem;
-    }
-}
 /*------------------------------------------------*/
 nav{
     font-size: 1.4rem;
@@ -36,8 +31,15 @@ nav img{
     height:50px;
 }
 /*------------------------------------------------*/
-
-
+@media (max-width: 576px) {
+    header p, nav{
+      font-size: 1rem;
+    }
+    nav #fontImgNav{
+        font-size:1rem;
+    }
+}
+/*------------------------------------------------*/
 
 #banner img{
     width:100%;
