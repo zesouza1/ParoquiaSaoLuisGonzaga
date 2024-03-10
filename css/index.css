@@ -1,11 +1,25 @@
 @charset "UTF-8";
-
+/* Geral do HTML */
 body, html{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color:aliceblue;
 }
+/*--------------------------------------------*/
+header .logo{
+    width: 100px;
+    height: 100px;
+}
+#cabecalho p{
+    margin: auto;
+}
+@media (max-width: 576px) {
+    header p{
+      font-size: 1rem;
+    }
+}
+/*------------------------------------------------*/
 nav{
     font-size: 1.4rem;
     margin:20px;
@@ -14,21 +28,16 @@ nav li{
     color:black;
 }
 
-
-.logo{
-    width: 50%;
-    height: auto;
-}
-
-#cabecalho p {
-    margin:0;
-    padding-left: 25%;
-    justify-content: center;
-}
-
 #spaconav li {
     padding-left: 50px;
 }
+nav img{
+    width:50px;
+    height:50px;
+}
+/*------------------------------------------------*/
+
+
 
 #banner img{
     width:100%;
@@ -46,6 +55,7 @@ nav li{
 
 footer {
     padding-top:20px;
+    padding-bottom: 50px;
 }
 
 footer img{
@@ -61,3 +71,11 @@ button{
 .espacinho input{
     margin-top: 15px;
 }
+p{
+    font-size: 20px;
+    color: #986800;
+}
+h2, h3{
+    color: #986800;
+}
+
